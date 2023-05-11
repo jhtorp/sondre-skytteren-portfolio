@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+</script>
+
+<Hero />
+
+<style>
+	Hero {
+		font-family: 'Nunito', sans-serif;
+	}
+</style>
