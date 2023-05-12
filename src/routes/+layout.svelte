@@ -50,12 +50,39 @@
 		font-size: 17px;
 	}
 
-	p,
-	span,
-	a {
+	/* Global generic styles */
+	:global(h1, h2) {
+		font-family: 'agrandir', sans-serif;
 		color: var(--font-primary);
+	}
+
+	:global(h1) {
+		font-size: 93px;
+	}
+	:global(h2) {
+		font-size: 60px;
+	}
+
+	:global(p, a, ul, li, span, button:not(h1, h2)) {
 		font-family: 'Nunito', sans-serif;
+		color: var(--font-primary);
+	}
+
+	:global(p) {
 		font-size: 24px;
-		font-weight: 400;
+		line-height: 150%;
+	}
+	:global(.text-sm) {
+		font-size: 20px;
+	}
+
+	:global(button) {
+		font-size: 21px;
+		font-weight: 600;
+		border: 1px solid var(--font-primary);
+		padding: 12px 24px;
+		border-radius: 10px;
+		cursor: pointer;
+		background: none;
 	}
 </style>

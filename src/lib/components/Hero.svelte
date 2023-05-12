@@ -24,37 +24,20 @@
 			<img class="pattern" src={pattern} alt="Mønster i bakgrunnen" />
 		</div>
 	</div>
+	<div class="socials-container">
+		<a href="https://www.linkedin.com/in/sondre-skytteren"
+			><Icon icon="brandico:linkedin-rect" color="#b5b5b5;" width="40" height="40" /></a
+		>
+	</div>
 	<div class="arrow-down-container">
-		<img src={ArrowDown} alt="pil ned ikon" />
+		<a href="/"><img class="arrow-down" src={ArrowDown} alt="pil ned ikon" /></a>
 	</div>
 </div>
 
 <style>
-	.h1 {
-		font-family: 'agrandir', sans-serif;
-		color: var(--font-primary);
-		font-size: 93px;
-	}
-
-	p,
-	button {
-		font-family: 'Nunito', sans-serif;
-		color: var(--font-primary);
-	}
-
 	p {
-		font-family: 'Nunito', sans-serif;
-		font-size: 24px;
 		width: 85%;
 		line-height: 150%;
-	}
-
-	button {
-		all: unset;
-		padding: 12px 24px;
-		border: 1px solid var(--font-primary);
-		border-radius: 10px;
-		font-family: 'Nunito', sans-serif;
 	}
 
 	.hero-main {
@@ -62,7 +45,8 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		gap: 64px;
+		gap: 24px;
+		align-items: center;
 	}
 
 	.full-width-container {
@@ -104,9 +88,19 @@
 		justify-content: end;
 	}
 
+	.socials-container {
+		width: 1260px;
+		display: flex;
+		justify-content: end;
+	}
+
 	.arrow-down-container {
 		width: 100%;
 		display: flex;
 		justify-content: center;
+	}
+
+	.arrow-down {
+		cursor: pointer;
 	}
 </style>
