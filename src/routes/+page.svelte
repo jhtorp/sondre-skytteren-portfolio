@@ -8,11 +8,11 @@
 	<Hero />
 </div>
 <main>
-	<section>
+	<section id="info">
 		<Info />
 	</section>
 
-	<section>
+	<section class="tjenester">
 		<Tjenester />
 	</section>
 </main>
@@ -26,7 +26,10 @@
 
 	section {
 		max-width: 1260px;
-		margin: 128px 0;
 		width: 100%;
+	}
+
+	.tjenester {
+		margin: 256px 0;
 	}
 </style>

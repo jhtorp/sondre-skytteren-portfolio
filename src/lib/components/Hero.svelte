@@ -1,6 +1,6 @@
 <script>
 	import sondre from '$lib/assets/sondre.jpg';
-	import pattern from '$lib/assets/pattern.svg';
+	import pattern from '$lib/assets/pattern1.svg';
 	import ArrowDown from '$lib/assets/arrow-down.svg';
 	import Icon from '@iconify/svelte';
 </script>
@@ -11,8 +11,9 @@
 			<div class="left">
 				<h1 class="h1">La meg inspirere deg!</h1>
 				<p>
-					Gjennom bruk av riktige metoder og verktøy innen design, er mitt mål å skape digitale
-					løsninger som er brukervennlige og oppfyller behovene til brukerne.
+					Hei! Jeg er Sondre. For øyeblikket studerer jeg interaksjonsdesign på NTNU. Denne
+					nettsiden har som formål å presentere hvem jeg er, samt vise til tidligere studiearbeid og
+					oppdrag jeg har gjort for andre.
 				</p>
 				<div class="btn-container">
 					<button>Kontakt meg</button>
@@ -25,18 +26,18 @@
 		</div>
 	</div>
 	<div class="socials-container">
-		<a href="https://www.linkedin.com/in/sondre-skytteren"
+		<a href="https://www.linkedin.com/in/sondre-skytteren" target="_blank"
 			><Icon icon="brandico:linkedin-rect" color="#b5b5b5;" width="40" height="40" /></a
 		>
 	</div>
 	<div class="arrow-down-container">
-		<a href="/"><img class="arrow-down" src={ArrowDown} alt="pil ned ikon" /></a>
+		<a href="#info"><img class="arrow-down" src={ArrowDown} alt="pil ned ikon" /></a>
 	</div>
 </div>
 
 <style>
 	p {
-		width: 85%;
+		width: 80%;
 		line-height: 150%;
 	}
 

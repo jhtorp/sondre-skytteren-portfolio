@@ -51,6 +51,10 @@
 	}
 
 	/* Global generic styles */
+	:global(html) {
+		scroll-behavior: smooth;
+	}
+
 	:global(h1, h2) {
 		font-family: 'agrandir', sans-serif;
 		color: var(--font-primary);

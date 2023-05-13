@@ -5,10 +5,17 @@
     src: url('$lib/fonts/agrandir/Agrandir-WideLight.otf');
 }
 
+
+:global(html) {
+    scroll-behaviour: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behaviour: smooth;
+    
 }
 
 :root {
