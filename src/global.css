@@ -6,9 +6,7 @@
 }
 
 
-:global(html) {
-    scroll-behaviour: smooth;
-}
+
 
 * {
     margin: 0;

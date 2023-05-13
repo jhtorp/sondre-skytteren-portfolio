@@ -21,14 +21,13 @@
 <style>
 	.full-width {
 		width: 100%;
-		background: var(--grey);
 	}
 
 	header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		max-width: 1260px;
+		max-width: 1400px;
 		margin: 0 auto;
 		min-height: 8vh;
 	}
@@ -55,7 +54,7 @@
 		scroll-behavior: smooth;
 	}
 
-	:global(h1, h2) {
+	:global(h1, h2, h3, h4) {
 		font-family: 'agrandir', sans-serif;
 		color: var(--font-primary);
 	}

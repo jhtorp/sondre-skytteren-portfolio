@@ -1,6 +1,6 @@
 <script>
 	import sondre from '$lib/assets/sondre.jpg';
-	import pattern from '$lib/assets/pattern1.svg';
+	import pattern from '$lib/assets/pattern-jpg.jpg';
 	import ArrowDown from '$lib/assets/arrow-down.svg';
 	import Icon from '@iconify/svelte';
 </script>

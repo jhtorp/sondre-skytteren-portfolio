@@ -10,7 +10,6 @@
 <div class="tjenester-container">
 	<div class="title-container">
 		<h2>Hva jeg gjør</h2>
-		<Divider />
 	</div>
 	<div class="tjeneste-container">
 		<div class="tjeneste-row">

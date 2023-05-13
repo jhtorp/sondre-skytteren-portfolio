@@ -18,14 +18,14 @@
 
 <style>
 	.img-container {
+		margin-top: 88px;
 		margin-bottom: 24px;
 	}
 
 	.container {
-		height: 300px;
+		height: 400px;
 		display: flex;
-		align-items: center;
-		border-bottom: 1px solid #dcdcdc;
+		border-bottom: 1px solid #070e2876;
 	}
 
 	p:not(.text-sm) {

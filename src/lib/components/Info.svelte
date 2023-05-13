@@ -35,16 +35,16 @@
 
 	.title-container {
 		display: inline-block;
-		flex: 1;
+		flex: 2;
 	}
 
 	.right-container {
-		flex: 2;
+		flex: 5;
 	}
 
 	.h2-offset {
 		position: relative;
-		left: 150px;
+		left: 175px;
 	}
 
 	img {
